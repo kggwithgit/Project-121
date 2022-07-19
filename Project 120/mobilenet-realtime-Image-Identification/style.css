@@ -1,0 +1,28 @@
+p {
+  color: blue;
+  letter-spacing: 2px;
+}
+
+.mobilenetP {
+  letter-spacing: 2px;
+}
+
+.googlelensP {
+  letter-spacing: 2px;
+}
+
+img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 300px;
+  border-radius: 50px;
+}
+
+.white1 {
+  color: white;
+}
+
+.developedby {
+  position: fixed;
+  color: orangered;
+}

@@ -1,0 +1,138 @@
+<html>
+<head>
+  <title>Real Time Image Identification App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <center>
+    <p> CASE STUDY GOOGLE LENS VS MOBILENET </p>
+    <span class = "google_lens googlelensP">
+      Google Lens
+      <img src = "https://th.bing.com/th/id/OIP.tbGdK-Jrhdhc0Bkf9GBeHQAAAA?w=170&h=180&c=7&r=0&o=5&pid=1.7">
+      <br>
+      <p>VS</p>
+      <p class = "btn btn-primary mobilenetP"> MobileNet </p>
+      <hr>
+    </span>
+
+    <ol>
+      <div class = "col-xs-12 test_image_result_1">
+        <li class = "col-sm-4 col-xs-12">
+          <b> Test image - Water Bottle</b>
+          <img src = "IMG_0858.jpg" class = "img-responsive">
+        </li>
+        <h5 class = "col-sm-4 col-xs-12">
+          Output on <b>Google Lens - </b>
+          <span>
+            Steel Water Bottle
+          </span>
+        </h5>
+        <h5 class = "col-sm-4 col-xs-12">
+          Output on <b> MobileNet model - </b>
+          <span>
+            Vacuum Clener, Riffle, Shower curtain, Tripod, Microphone 
+          </span>
+        </h5>
+        <div class = "mini-result" class = "col-xs-12">
+          <h4> Result - </h4>
+          <hr>
+          <h4> Google Lens is more accurate in this round than MobileNet</h4>
+        </div>
+      </div>
+      <br>
+
+      <div class = "col-xs-12 test_image_result_1">
+        <li class = "col-sm-4 col-xs-12">
+          <b> Test image - Bed</b>
+          <img src = "IMG_0859.jpg" class = "img-responsive">
+        </li>
+        <h5 class = "col-sm-4 col-xs-12">
+          Output on <b>Google Lens - </b>
+          <span>
+            Mattress
+          </span>
+        </h5>
+        <h5 class = "col-sm-4 col-xs-12">
+          Output on <b> MobileNet model - </b>
+          <span>
+            DragonFly, Box, Comforter, Chain Armour
+          </span>
+        </h5>
+        <div class = "mini-result" class = "col-xs-12">
+          <h4> Result - </h4>
+          <hr>
+          <h4> Google Lens is more accurate in this round than MobileNet</h4>
+        </div>
+      </div>
+      <br>
+
+      <div class = "col-xs-12 test_image_result_1">
+        <li class = "col-sm-4 col-xs-12">
+          <b> Test image - Bag</b>
+          <img src = "IMG_0860.jpg" class = "img-responsive">
+        </li>
+        <h5 class = "col-sm-4 col-xs-12">
+          Output on <b>Google Lens - </b>
+          <span>
+            Quecha Decethalon Bag
+          </span>
+        </h5>
+        <h5 class = "col-sm-4 col-xs-12">
+          Output on <b> MobileNet model - </b>
+          <span>
+            Backpack, punchbag, punchball
+          </span>
+        </h5>
+        <div class = "mini-result" class = "col-xs-12">
+          <h4> Result - </h4>
+          <hr>
+          <h4> This round goes to both so it is a tie</h4>
+        </div>
+      </div>
+      <br>
+
+      <div class = "col-xs-12 test_image_result_1">
+        <li class = "col-sm-4 col-xs-12">
+          <b> Test image - Lamp</b>
+          <img src = "IMG_0861.jpg" class = "img-responsive">
+        </li>
+        <h5 class = "col-sm-4 col-xs-12">
+          Output on <b>Google Lens - </b>
+          <span>
+            Square Vase
+          </span>
+        </h5>
+        <h5 class = "col-sm-4 col-xs-12">
+          Output on <b> MobileNet model - </b>
+          <span>
+            Table Lamp, televison System, Electrical Switch, Soap Dispenser
+          </span>
+        </h5>
+        <div class = "mini-result" class = "col-xs-12">
+          <h4> Result - </h4>
+          <hr>
+          <h4> MobileNet is more accurate in this round than Google Lens</h4>
+        </div>
+      </div>
+      <br>
+    </ol>
+
+    <h6 class = "finalresults btn btn-info"> I have Tested 4 Images.
+      Google lens Predicted 2 of all
+      MobileNet Model Predicted 1 of all
+      AND 1 round was a tie since both of them got it right
+      SO the winner of this competision was GOOGLE LENS
+    </h6>
+  </center>
+  <p class = "developedby"> Developed By - Keshav Ganesh Gopal</p>
+</body>
+</html>
